@@ -1110,3 +1110,22 @@ nav {
     font-size: 45px;
     margin: 5px 0;
   }
+  .add-todo-trigger-button {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border: none;
+    background-color: rgba(29, 107, 10, 0.548);
+    /* color: #0E0587; */
+    width: 45px;
+    height: 45px;
+    border-radius: 30px;
+    
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    z-index: 2;
+    }
+    .add-todo-trigger-button:hover{
+        background-color: #59b325;
+    }
