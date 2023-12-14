@@ -1734,8 +1734,7 @@ progress {
   }
   .g-xxl-5,
 .gy-xxl-5 {
-    --bs-gutter-y: 3rem;
-  }
+    --bs-gutter-y: 3}
 }
 .table {
   --bs-table-color: var(--bs-body-color);
