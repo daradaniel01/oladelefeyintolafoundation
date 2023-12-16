@@ -212,7 +212,8 @@ a {
       background-color: linear-gradient(105deg,#606061 ,#011f0a);
       color: #fff;
       padding: 15px 30px;
-    text-align: center;
+      
+      text-align: center;
   }
   
   .footer-copyright-wrapper {
@@ -220,7 +221,33 @@ a {
       margin-right: auto;
       max-width: 1200px;
   }
-  
+  .social{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    
+  }
+  .social-lins{
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 70px;
+    background: linear-gradient(to bottom, #04cc0477, #0f2502);
+  }
+  .soacial{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  .soacial:hover{
+    color: #dbdbdb;
+  }
   .footer-copyright-text {
     color: #fff;
       font-size: 13px;
