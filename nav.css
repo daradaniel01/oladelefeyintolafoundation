@@ -852,7 +852,7 @@ nav {
       U+FEFF, U+FFFD;
   }
   .wrapper{
-    background: #c0c0c0;
+    background: linear-gradient(105deg,#e28080bf ,#15fd5ba3);
     position: fixed;
     width: 100%;
     z-index: 3;
@@ -936,7 +936,7 @@ nav {
     outline: none;
     font-size: 17px;
     color: #fff;
-    background: #c0c0c0;
+    background: linear-gradient(105deg,#e28080 ,#15fd5bee);
     padding: 0 100px 0 15px;
   }
   .search-box input::placeholder{
@@ -949,7 +949,7 @@ nav {
     transform: translateY(-50%);
     line-height: 60px;
     width: 70px;
-    background: #c0c0c0;
+    background: linear-gradient(105deg,#e28080bf ,#15fd5ba3);
     border: none;
     outline: none;
     color: #fff;
@@ -963,7 +963,7 @@ nav {
   /* Dropdown Menu code start */
   .content .links ul{
     position: absolute;
-    background: #7a7a7a;
+    background: linear-gradient(105deg,#e28080bf ,#15fd5ba3);
     top: 80px;
     z-index: -1;
     opacity: 0;
@@ -1023,7 +1023,7 @@ nav {
     nav .content .links{
       display: block;
       position: fixed;
-      background: #6d6d6d;
+      background: linear-gradient(105deg,#e28080fa ,#15fd5bf6);
       height: 100%;
       width: 100%;
       top: 70px;
@@ -1128,4 +1128,13 @@ nav {
     }
     .add-todo-trigger-button:hover{
         background-color: #59b325;
+    }
+    a{
+      text-decoration: none !important;
+      border: none !important;
+    }
+    li{
+      text-decoration: none;
+      border: none;
+      
     }
