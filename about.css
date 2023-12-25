@@ -124,6 +124,7 @@ body{
   background-color: #fff;
   width: 100%;
   display: flex;
+  padding-bottom: 35PX;
   flex-wrap: wrap;
 }
 .i{
@@ -215,7 +216,9 @@ body{
   }
   }
   @media(max-width: 891px) {
-    
+    .mission{
+      padding-bottom: 10px;
+    }
     .yutt{
       width: 90vw;
       padding-left: 20px;
