@@ -72,3 +72,59 @@
     background-color: white;
     color: #4caf50;
   }
+  .donatee{
+    padding-top: 60px;
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    flex-wrap: wrap !important;
+    justify-content: center;
+  }
+  .donaer{
+    height: 250px;
+    width: 100%;
+  }
+  .donaer-text{
+    width: 90%;
+  }
+  .class{
+    padding-top: 39px;
+  }
+  .donation-text{
+    width: 30%;
+  }
+  .donater{
+    background-color:#4caf50;
+    color:#fff;
+    padding: 10px;
+    border:none;
+    border-radius:5px;
+  }
+  .donater:hover{
+    background-color:#fff;
+    color:#4caf50;
+  }
+  @media (max-width: 991px) {
+    .donatee{
+      padding-top: 60px;
+      display: flex;
+      gap: 30px;
+      width: 100%;
+      flex-wrap: wrap !important;
+      justify-content: center;
+    }
+    .donaer-text{
+      width: 100%;
+    }
+    .class{
+      padding: 0px;
+    }
+    .donaer{
+      height: 200px;
+      width: 100%;
+    }
+    .donation-text{
+      text-align: center;
+      width: 100%;
+    }
+  }
