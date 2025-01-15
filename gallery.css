@@ -124,3 +124,16 @@ h1{
         padding: 0;
     }
 }
+.seemore{
+    padding: 10px 25px;
+    outline: none;
+    background-color: rgb(18, 204, 18);
+    color: #fff;
+    font-size: 19px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 30px;
+}
+.seemore:hover{
+    background-color: rgb(105, 172, 6);
+}
